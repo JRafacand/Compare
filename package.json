@@ -1,0 +1,19 @@
+{
+  "name": "compare",
+  "version": "1.0.0",
+  "description": "Comparar pagina produccion y pruebas",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "author": "JRafaCand",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.0",
+    "cypress-xpath": "^2.0.1",
+    "xpath_cypress": "^1.0.2"
+  },
+  "dependencies": {
+    "cypress_xpath_lib": "^1.1.0"
+  }
+}
