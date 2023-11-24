@@ -29,3 +29,5 @@ Cypress.on('uncaught:exception', (err, runnable) => {
     //uncaught.
     return false//capturo uncaught:exception para que cyporess continue con la prueba    
   });
+
+  
